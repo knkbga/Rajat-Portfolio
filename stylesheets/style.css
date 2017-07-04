@@ -200,16 +200,16 @@ a.right :hover{
 }
 .carousel-indicators .active
 {
-    background-color:  #4aa;
+    background-color:  #4EC1C0;
 }
 .carousel-indicators li
 {
     background-color: transparent;
-    border: 1px solid #4aa;
+    border: 1px solid #4EC1C0;
 }
 .carousel-control:hover
 {
-    color: #4aa;
+    color: #4EC1C0;
 }
 
 /*This will work for firefox*/

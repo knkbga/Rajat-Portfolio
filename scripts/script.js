@@ -64,6 +64,7 @@ $(function(){
 
 		$('#portfolio_label').css('font-weight',100);
 		$('#append_label').text(' | '+$(this).text());
+        $('#append_label').fadeIn();
 	});
 
     /*Show Portfolio when Portfolio tag is clicked*/
@@ -92,6 +93,7 @@ $(function(){
 		};
 
 		//updating the PATH
+		$('#append_label').fadeOut();
 		$('#append_label').text('');
 		$('#portfolio_label').css('font-weight',900);
 	});
