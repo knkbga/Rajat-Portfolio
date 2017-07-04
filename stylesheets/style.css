@@ -194,6 +194,23 @@ a.right :hover{
     height: 500px;
 }
 
+.carousel-indicators
+{
+    margin-bottom: -60px;
+}
+.carousel-indicators .active
+{
+    background-color:  #4aa;
+}
+.carousel-indicators li
+{
+    background-color: transparent;
+    border: 1px solid #4aa;
+}
+.carousel-control:hover
+{
+    color: #4aa;
+}
 
 /*This will work for firefox*/
 @-moz-document url-prefix() {
