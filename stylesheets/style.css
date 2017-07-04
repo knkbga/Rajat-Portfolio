@@ -164,6 +164,18 @@
 #posters{
 	display: none;
 }
+#interaction{
+	display: none;
+}
+#branding{
+	display: none;
+}
+#illustration{
+	display: none;
+}
+#videos{
+	display: none;
+}
 .carousel-control{
 	text-shadow: none;
 	background-color : none;
@@ -175,4 +187,21 @@ a.left :hover{
 a.right :hover{
 	background-color: none;
 	text-decoration: none;
+}
+#interaction > #carousel-example-interaction > .carousel-inner > .item
+{
+    overflow-y: scroll;
+    height: 500px;
+}
+
+
+/*This will work for firefox*/
+@-moz-document url-prefix() {
+    .insider{
+    margin-top: 70px;
+    }
+    
+    .social_circle {
+        padding-top: 0px;
+    }
 }
