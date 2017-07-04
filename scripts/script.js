@@ -1,4 +1,5 @@
-$(function(){
+//when everythings doen loading
+$(function(){    
 	$('.loader').hide();
 
 	$('.insider').css('margin-top',(($('window').height()-500)/2));
@@ -25,6 +26,7 @@ $(function(){
 		});
 	});
 
+    // when any list item is clicked
 	$('.list a').click(function(){
 		var type = $(this).text().toLowerCase();
 		$('#portfolio').fadeOut(function(){
@@ -169,3 +171,9 @@ $(function(){
 		});
 	}
 });
+
+// becoz couldn't be called inside document.ready function
+function reload()
+{     
+    location.reload();
+};

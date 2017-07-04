@@ -190,15 +190,16 @@ a.right :hover{
 }
 #interaction > #carousel-example-interaction > .carousel-inner > .item
 {
-    overflow-y: scroll;
+    overflow-y: auto;
     height: 500px;
 }
 
 
 /*This will work for firefox*/
 @-moz-document url-prefix() {
+    
     .insider{
-    margin-top: 70px;
+        margin-top: 70px;
     }
     
     .social_circle {
