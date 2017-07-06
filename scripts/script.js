@@ -1,9 +1,11 @@
-//when everythings doen loading
+//when everythings done loading
 $(function(){    
 	$('.loader').hide();
 
 	$('.insider').css('margin-top',(($('window').height()-500)/2));
 	$('.insider').css('display','inline-block');
+    
+    //place #tag properly
 	$('#tag').css('top',$('.insider').offset().top-40);
 	$('#tag').css('left',$('.insider').offset().left);
 	$('#tag').show();
@@ -30,6 +32,7 @@ $(function(){
 	$('.list a').click(function(){
 		var type = $(this).text().toLowerCase();
 		$('#portfolio').fadeOut(function(){
+            
 			switch(type){
 				case "about":{
 					show_about();
@@ -59,7 +62,8 @@ $(function(){
 					show_contact();
 				}
 			};
-		});
+
+        });
 		// contact();
 
 		$('#portfolio_label').css('font-weight',100);
@@ -174,7 +178,7 @@ $(function(){
 	}
 });
 
-// becoz couldn't be called inside document.ready function
+// becoz couldn't be called inside document.ready function (an onclick event)
 function reload()
 {     
     location.reload();

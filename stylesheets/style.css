@@ -212,6 +212,18 @@ a.right :hover{
     color: #4EC1C0;
 }
 
+img {
+  background: url('Images/alt.png') no-repeat;
+}
+
+#about_content
+{
+    color: #544467;
+    font-family: 'Lato', sans-serif ;
+    font-weight: 900;
+    font-size: 20px;
+}
+
 /*This will work for firefox*/
 @-moz-document url-prefix() {
     
