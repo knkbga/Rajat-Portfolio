@@ -167,6 +167,7 @@ $(function(){
 			$('#portfolio').fadeIn();
 		});
 	}
+    
     /*For Posters*/
 	function show_posters(){
 		$('#posters').fadeIn();
