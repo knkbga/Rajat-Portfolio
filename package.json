@@ -1,0 +1,29 @@
+{
+  "name": "rajat-bagga-portfolio",
+  "version": "1.0.0",
+  "description": "A Portfolio website for Designer Rajat Bagga\t",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://knkbga@bitbucket.org/knkbga/rajat-bagga-portfolio.git"
+  },
+  "keywords": [
+    "Rajat",
+    "Bagga",
+    "Designer",
+    "Portfolio",
+    "Illustrations",
+    "Branding",
+    "Posters"
+  ],
+  "author": "knkbga",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/knkbga/rajat-bagga-portfolio#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "path": "^0.12.7"
+  }
+}
